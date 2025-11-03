@@ -1,0 +1,25 @@
+p{
+    color: blue;
+    font-size: 24px;
+}
+h1{
+    color: green;
+    text-align: center;
+}
+#parrafoLorem{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.verde{
+    color: green;
+    font-size: 10px;
+}
+.mayusculas{
+    text-transform: uppercase;
+}
+#encabezado{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}

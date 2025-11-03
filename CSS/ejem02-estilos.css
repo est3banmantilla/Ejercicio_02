@@ -1,0 +1,12 @@
+span + span {
+    text-decoration: underline;
+}
+div + p {
+    border: 2px solid red;
+}
+li + li {
+    background-color: thistle;
+}
+div > span {
+    color: blueviolet;
+}

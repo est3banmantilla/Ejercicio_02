@@ -1,0 +1,43 @@
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+    font-size: 16px;
+}
+input:hover {
+    border-color: green;
+    border: 3px solid green;
+}
+
+a:visited {
+    color: orange;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: red;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: purple;
+    font-weight: bold;
+}
+p:nth-child(2n) {
+    background-color: burlywood;
+}
+p:last-of-type {
+    font-style: italic;
+}
+p:first-of-type {
+    font-weight: bold;
+}
+p::first-line {
+    text-transform: uppercase;
+}
+p span:first-child {
+    background-color: yellow;
+}
+span+span:hover {
+    background-color: lightgray;
+}
